@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyPjChROq9AFhtD4j0Qnn9Ek",
+      "authorship_tag": "ABX9TyPqJOQq1nNgkkE4I4ApIfqr",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -50,7 +50,7 @@
         "id": "EkcKz2yi-9-I",
         "outputId": "de127768-d95d-490f-ea83-153e438305c7"
       },
-      "execution_count": 5,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -84,25 +84,25 @@
         "\n",
         "if nota1 < 0 or nota1 > 10:\n",
         "  print (\"nota invalida, insira nota novamente\")\n",
-        "  nota1 = float (input (\"digite aqui a sua nota:\"))\n",
+        "  nota1 = float (input(\"digite aqui a sua nota:\"))\n",
         "\n",
         "nota2 = float (input(\"digite sua nota aqui:\"))\n",
         "\n",
         "if nota2 < 0 or nota2 > 10:\n",
         "  print (\"nota invalida, insira nota novamente\")\n",
-        "  nota1 = float (input (\"digite aqui a sua nota:\"))\n",
+        "  nota2 = float (input(\"digite aqui a sua nota:\"))\n",
         "\n",
         "nota3 = float (input(\"digite sua nota aqui:\"))\n",
         "\n",
         "if nota3 < 0 or nota3 > 10:\n",
         "  print (\"nota invalida, insira nota novamente\")\n",
-        "  nota1 = float (input (\"digite aqui a sua nota:\"))\n",
+        "  nota3 = float (input(\"digite aqui a sua nota:\"))\n",
         "\n",
         "nota4 = float (input(\"digite sua nota aqui:\"))\n",
         "\n",
         "if nota4 < 0 or nota4 > 10:\n",
         "  print (\"nota invalida, insira nota novamente\")\n",
-        "  nota1 = float (input (\"digite aqui a sua nota:\"))\n",
+        "  nota4 = float (input(\"digite aqui a sua nota:\"))\n",
         "\n",
         "media = (nota1 + nota2 + nota3 + nota4) / 4\n",
         "\n",
@@ -116,28 +116,10 @@
         "  print (f\"voce esta aprovado, sua media é : {media}\")\n"
       ],
       "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "x_sjHFqZFIX6",
-        "outputId": "b9a19848-7864-4e9a-db6c-69ced9c17120"
+        "id": "x_sjHFqZFIX6"
       },
-      "execution_count": 32,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "digite sua nota aqui:9\n",
-            "digite sua nota aqui:11\n",
-            "nota invalida, insira nota novamente\n",
-            "digite aqui a sua nota:8\n",
-            "digite sua nota aqui:7\n",
-            "digite sua nota aqui:6\n",
-            "voce esta aprovado, sua media é : 8.0\n"
-          ]
-        }
-      ]
+      "execution_count": null,
+      "outputs": []
     },
     {
       "cell_type": "code",
@@ -152,7 +134,7 @@
         "\n",
         "# variavel\n",
         "\n",
-        "compra = float (input(\"digite um valor: \"))\n",
+        "compra = float(input(\"digite um valor: \"))\n",
         "\n",
         "desconto = compra - (compra * 0.10)\n",
         "\n",
@@ -168,29 +150,10 @@
         "  print (f\"voce não obteve desconto, valor a pagar : {compra}\")"
       ],
       "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/",
-          "height": 356
-        },
-        "id": "XF-ksjpVE_90",
-        "outputId": "a58d4150-92b1-42d0-b4ad-9581f8ccd185"
+        "id": "XF-ksjpVE_90"
       },
-      "execution_count": 40,
-      "outputs": [
-        {
-          "output_type": "error",
-          "ename": "KeyboardInterrupt",
-          "evalue": "Interrupted by user",
-          "traceback": [
-            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
-            "\u001b[0;31mKeyboardInterrupt\u001b[0m                         Traceback (most recent call last)",
-            "\u001b[0;32m/tmp/ipykernel_3570/3515510894.py\u001b[0m in \u001b[0;36m<cell line: 0>\u001b[0;34m()\u001b[0m\n\u001b[1;32m      9\u001b[0m \u001b[0;31m# variavel\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     10\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 11\u001b[0;31m \u001b[0mcompra\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mfloat\u001b[0m \u001b[0;34m(\u001b[0m\u001b[0minput\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"digite um valor: \"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     12\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     13\u001b[0m \u001b[0mdesconto\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mcompra\u001b[0m \u001b[0;34m-\u001b[0m \u001b[0;34m(\u001b[0m\u001b[0mcompra\u001b[0m \u001b[0;34m*\u001b[0m \u001b[0;36m0.10\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
-            "\u001b[0;32m/usr/local/lib/python3.12/dist-packages/ipykernel/kernelbase.py\u001b[0m in \u001b[0;36mraw_input\u001b[0;34m(self, prompt)\u001b[0m\n\u001b[1;32m   1175\u001b[0m                 \u001b[0;34m\"raw_input was called, but this frontend does not support input requests.\"\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1176\u001b[0m             )\n\u001b[0;32m-> 1177\u001b[0;31m         return self._input_request(\n\u001b[0m\u001b[1;32m   1178\u001b[0m             \u001b[0mstr\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mprompt\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1179\u001b[0m             \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_parent_ident\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m\"shell\"\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
-            "\u001b[0;32m/usr/local/lib/python3.12/dist-packages/ipykernel/kernelbase.py\u001b[0m in \u001b[0;36m_input_request\u001b[0;34m(self, prompt, ident, parent, password)\u001b[0m\n\u001b[1;32m   1217\u001b[0m             \u001b[0;32mexcept\u001b[0m \u001b[0mKeyboardInterrupt\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1218\u001b[0m                 \u001b[0;31m# re-raise KeyboardInterrupt, to truncate traceback\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m-> 1219\u001b[0;31m                 \u001b[0;32mraise\u001b[0m \u001b[0mKeyboardInterrupt\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"Interrupted by user\"\u001b[0m\u001b[0;34m)\u001b[0m \u001b[0;32mfrom\u001b[0m \u001b[0;32mNone\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m   1220\u001b[0m             \u001b[0;32mexcept\u001b[0m \u001b[0mException\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1221\u001b[0m                 \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mlog\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mwarning\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"Invalid Message:\"\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mexc_info\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;32mTrue\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
-            "\u001b[0;31mKeyboardInterrupt\u001b[0m: Interrupted by user"
-          ]
-        }
-      ]
+      "execution_count": null,
+      "outputs": []
     }
   ]
 }
